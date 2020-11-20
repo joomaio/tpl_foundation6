@@ -20,6 +20,7 @@ $plugins = ['core', 'util','abide','accordion','accordionMenu','drilldown',
 foreach($css as $vendor){
 	JHtml::_('stylesheet', "tpl_foundation6/$vendor.css", array('version' => 'auto', 'relative' => true));
 }
+JHtml::_('jquery.framework');
 foreach($js as $vendor){
 	JHtml::_('script', "tpl_foundation6/$vendor.js", array('version' => 'auto', 'relative' => true));
 }
@@ -81,6 +82,7 @@ else
 		<?php 
 			$document->addStyleSheet($this->baseurl.'/templates/system/css/system.css');
 			$document->addStyleSheet($this->baseurl.'/templates/' . $this->template . '/css/template.css'); 
+			JHtml::_('jquery.framework');
 		?>
 		<!-- Compressed CSS -->
 		<link href="<?php echo $this->baseurl.'/media/tpl_foundation6/css/foundation.min.css'; ?>" rel="stylesheet" />
