@@ -84,6 +84,6 @@ $info    = $params->get('info_block_position', 0);
 <?php if( trim($this->item->event->afterDisplayContent) != ''): ?>
 <div class="callout">
 	<?php echo $this->item->event->afterDisplayContent;
-		echo JText::_('TPL_FOUNDATION6_AUTHOR_LABEL'); ?> <a href="<?php echo JRoute::_('index.php?option=com_author&author_id=' . $this->item->created_by, false); ?>"><?php echo $this->item->author; ?></a>
+		echo JText::_('TPL_FOUNDATION6_AUTHOR_LABEL'); ?> <?php echo $this->item->author; ?>
 </div>
 <?php endif ?>

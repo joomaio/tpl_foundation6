@@ -94,6 +94,6 @@ $assocParam = (JLanguageAssociations::isEnabled() && $params->get('show_associat
 <div class="callout">
 	<?php 
 		echo $this->item->event->afterDisplayContent;
-		echo JText::_('TPL_FOUNDATION6_AUTHOR_LABEL'); ?> <a href="<?php echo JRoute::_('index.php?option=com_author&author_id=' . $this->item->created_by, false); ?>"><?php echo $this->item->author; ?></a>
+		echo JText::_('TPL_FOUNDATION6_AUTHOR_LABEL'); ?> <?php echo $this->item->author; ?>
 	</div>
 <?php endif ?>

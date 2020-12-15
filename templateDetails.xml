@@ -8,7 +8,7 @@
 	<authorUrl>joomaio.com</authorUrl>
 	<copyright>(C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>0.17</version>
+	<version>0.2</version>
 	<description>Joomla template use Foundation6</description>
 	<updateservers>
 		<server type="extension" name="tpl_foundation6" priority="1">http://www.update.joomaio.org/tpl_foundation6/tpl_foundation6_update.xml</server>
